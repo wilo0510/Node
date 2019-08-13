@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Primeros pasos nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilo0510/Node.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "primer",
+    "servidor",
+    "wilo"
+  ],
+  "author": "wilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilo0510/Node/issues"
+  },
+  "homepage": "https://github.com/wilo0510/Node#readme"
+}
