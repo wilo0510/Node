@@ -1,4 +1,6 @@
-const http=require('http');
+
+//Esta forma se hace sin node express
+/*const http=require('http');
 const color=require('colors');
 //Creacion de la funcion de respuesta
 const handleServer=function(req, res){
@@ -12,4 +14,15 @@ const server=http.createServer(handleServer);
 server.listen(3000,function(){
     console.log('Server on port 3000'.green)
 });
-
+*/
+//Haciendolo con express
+const express=require('express');
+const color=require('colors');
+const server=express();
+server.get('/',function(req,res){
+    res.send('<h1>Hola mundo con express y node</h1>');
+    res.end();
+});
+server.listen(3000,function(){
+    console.log("Server on port 3000");
+});
